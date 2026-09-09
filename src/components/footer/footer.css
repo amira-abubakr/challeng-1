@@ -1,0 +1,29 @@
+.footer {
+    background-color: var(--surface);
+    color: var(--text);
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .footer {
+        padding: 1.75rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .footer {
+        padding: 1.5rem;
+        font-size: 0.95rem;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .footer {
+        padding: 1.25rem 1rem;
+        font-size: 0.9rem;
+    }
+}
